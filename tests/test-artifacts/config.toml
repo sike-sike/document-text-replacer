@@ -1,0 +1,48 @@
+[name]
+text_to_match = "Jane Doe"
+modified_text = "Redacted"
+index_start = 0
+index_end = 1
+fmt = { font_name = "Garamond", font_size = 22, bold = true }
+
+[location]
+text_to_match = "City, ST"
+modified_text = "Redacted, RDCTD"
+index_start = 1
+index_end = 2
+fmt = { font_name = "Garamond", font_size = 10, bold = false }
+
+[contact-information]
+text_to_match = "+00 0000 000 000 | janedoe@email.com | https://www.linkedin.com/jane-doe  | https://github.com/jane-doe"
+modified_text = "+XX XXXX XXX XXX | redacted@redacted.com | https://linkedin.com/redacted | https://github.com/redacted"
+index_start = 2
+index_end = 3
+fmt = { font_name = "Garamond", font_size = 10, bold = false }
+
+[exp-1-cmpny-details]
+text_to_match = "Company Name											     Month, Year - Present"
+modified_text = "Redacted\t\t\t\t\t\t\t\t\t\t             MMMM, YYYY - Present"
+index_start = 9
+index_end = 11
+fmt = { font_name = "Garamond", font_size = 10, bold = true }
+
+[exp-2-cmpny-name]
+text_to_match = "Company Name										           Month, Year – Month, Year"
+modified_text = "Redacted\t\t\t\t\t\t\t\t\t              MMMM, YYYY - MMMM, YYYY"
+index_start = 14
+index_end = 16
+fmt = { font_name = "Garamond", font_size = 10, bold = true }
+
+[edu-1-clg-name]
+text_to_match = "University Name											       Month, Year"
+modified_text = "Redacted\t\t\t\t\t\t\t\t\t\t\t\t MMMM, YYYY"
+index_start = 21
+index_end = 23
+fmt = { font_name = "Garamond", font_size = 10, bold = true }
+
+[edu-2-clg-name]
+text_to_match = "University Name											       Month, Year"
+modified_text = "Redacted\t\t\t\t\t\t\t\t\t\t\t\t MMMM, YYYY"
+index_start = 24
+index_end = 26
+fmt = { font_name = "Garamond", font_size = 10, bold = true }
